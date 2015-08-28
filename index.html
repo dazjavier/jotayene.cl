@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>J&N | Diseño web, creación de logos y más!</title>
+  <link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+  <link href='http://fonts.googleapis.com/css?family=Lobster+Two:400,700' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="css/bootstrap.min.css" />
+  <link rel="stylesheet" href="css/tooltipster.css" />
+ 	<link rel="stylesheet" href="css/estilos.css" />
+
+</head>
+<body>
+	<nav class="navbar navbar-fixed-top">
+	  <div class="container-fluid">
+	    <!-- Brand and toggle get grouped for better mobile display -->
+	    <div class="navbar-header">
+	      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#menu-list" aria-expanded="false">
+	        <span class="sr-only">Toggle navigation</span>
+	        <span class="icon-bar"></span>
+	        <span class="icon-bar"></span>
+	        <span class="icon-bar"></span>
+	      </button>
+	      <a class="navbar-brand" href="#">J<span>&</span>N</a>
+	    </div>
+
+	    <!-- Collect the nav links, forms, and other content for toggling -->
+	    <div class="collapse navbar-collapse" id="menu-list">
+	      <ul class="nav navbar-nav" id="main-nav">
+	        <li><a class="smoothScroll" href="#bgInicio">Inicio</a></li>
+	        <li><a class="smoothScroll" href="#bgQueHacemos">¿Qué hacemos?</a></li>
+	        <li><a class="smoothScroll" href="#bgTecnologias">Tecnologías</a></li>
+	        <li><a class="smoothScroll" href="#bgContacto">Contacto</a></li>
+	      </ul>
+	    </div><!-- /.navbar-collapse -->
+	  </div><!-- /.container-fluid -->
+	</nav>
+	<div id="bgInicio" class="section-page">
+		<section>
+			<h1>bienvenido/a a J<span>&</span>N</h1>
+			<div id="mueve">
+				<h2>Tu mejor</h2>
+				<ul>
+					<li>opción</li>
+					<li>solución</li>
+					<li>alternativa</li>
+				</ul>
+			</div>
+		</section>
+	</div>
+	<div id="bgQueHacemos" class="section-page">
+		<section>
+			<h2>¿A qué nos <span>dedicamos</span>?</h2>
+			<section id="li-dedic" class="row">
+				<ul>
+					<li class="col-md-4">
+						<div class="dw"></div>
+						<h3>Diseño Web</h3>
+						<p>Nos encargamos de que tu diseño sea el indicado y además adaptable a móviles.</p>
+					</li>
+					<li class="col-md-4">
+						<div class="cl"></div>
+						<h3>Creación de logos</h3>
+						<p>Nos enfocamos en crear algo que represente de la mejor manera tu empresa.</p>
+					</li>
+					<li class="col-md-4">
+						<div class="devw"></div>
+						<h3>Desarrollo Web</h3>
+						<p>Si ya tienes tu diseño hecho, podemos maquetarlo para ti.</p>
+					</li>
+				</ul>
+			</section>
+		</section>
+	</div>
+	<div id="bgTecnologias" class="section-page">
+		<section>
+			<h2>Tecnologías que utilizamos</h2>
+			<ul class="row">
+				<li>
+					<div class="html5 tooltip-otro" title="HTML5"></div>
+				</li>
+				<li>
+					<div class="css3 tooltip-otro" title="CSS3"></div>
+				</li>
+				<li>
+					<div class="jquery tooltip-otro" title="jQuery"></div>
+				</li>
+				<li>
+					<div class="photoshop tooltip-otro" title="Photoshop"></div>
+				</li>
+				<li>
+					<div class="illustrator tooltip-otro" title="Illustrator"></div>
+				</li>
+			</ul>
+
+
+		</section>
+	</div>
+	<div id="bgContacto" class="section-page">
+		<section>
+			<h2>Contáctanos</h2>
+			<article>
+				<a href="">
+					<img src="img/mail.png">
+					contacto@jotayene.cl
+				</a>
+				<a href="">
+					<img src="img/phone.png">
+					(+569)6 395 4195 / (+569)9 237 2618
+				</a>
+			</article>
+			<form>
+				<div>
+					<input type="text" class="nombre" name="nombre" placeholder="Nombre" required />
+				</div>
+				<div>
+					<input type="email" class="email" name="email" placeholder="E-mail" required />
+				</div>
+				<div>
+					<input type="text" class="asunto" name="asunto" placeholder="Asunto" required />
+				</div>
+				<div>
+					<textarea class="mensaje" name="mensaje" placeholder="Mensaje" required></textarea>
+				</div>
+				<div>
+					<input type="submit" class="enviar" value="" />
+				</div>
+			</form>
+		</section>
+	</div>
+	<div id="bgFooter">
+		<p>Hecho con <span><3</span> por desarrolladores chilenos. Jotayene (c) - 2015</p>
+	</div>
+
+<!-- Latest compiled and minified JavaScript -->
+<script src="js/jquery-1.11.3.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/waypoints.min.js"></script>
+<script src="js/jquery.smooth-scroll.min.js"></script>
+<script src="js/jquery.tooltipster.js"></script>
+<script src="js/main.js"></script>
+<script type="text/javascript">
+	$(document).on('ready', function(){
+		$('.tooltip-otro').tooltipster();
+	});
+</script>
+</body>
+</html>

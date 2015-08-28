@@ -1,0 +1,358 @@
+azul-oscuro = #144959
+azul-claro = #2a7e8c
+blanco = #fffffb
+anaranjado = #f24b26
+cafe = #5f5347
+cafe-claro = #95816E
+montserrat = 'Montserrat', sans-serif
+lobster = 'Lobster Two', sans-serif
+
+.navbar-toggle
+		border 2px solid cafe-claro
+.icon-bar
+		width 22px
+		height 2px
+		background cafe-claro
+.navbar
+	margin 0
+	background cafe
+	border 0
+	border-radius 0
+	font-family montserrat !important
+	text-transform uppercase
+	border-bottom 1px solid cafe-claro
+
+	a.navbar-brand
+		color anaranjado
+		letter-spacing -2px
+		font-weight bold
+		font-size 32px
+		transition all .2s
+	
+		span
+			color azul-claro
+	a.navbar-brand:hover
+		text-shadow 0 2px 0 rgba(0, 0, 0, .5)
+		
+	.navbar-header a:hover
+		text-decoration none
+	.navbar-nav
+		display inline-block
+		float none
+		vertical-align top
+	.navbar-collapse
+		text-align center
+	.navbar-nav li a
+		color white
+		transition all .3s
+	.navbar-nav li a:hover
+		color anaranjado
+#bgInicio
+	width 100%
+	height 700px
+	padding-top 80px
+	background url(../img/macbook.png) no-repeat 500px center
+	background-size 1200px
+
+	section
+		max-width 960px
+		font-family montserrat
+		margin 0 auto
+		border-box box-sizing
+		padding 150px 0
+
+		h1
+			max-width 300px
+			font-size 64px
+			font-weight bold
+			color anaranjado
+
+			span
+				color azul-claro
+
+
+#mueve
+	max-width 400px
+	height: 35px
+	display flex
+	overflow hidden
+
+	h2
+		font-size 30px
+		margin 0
+	ul
+		font-family lobster
+		font-size 28px
+		list-style none
+		animation cambiar 7s infinite
+		margin 0
+		padding 0 0 0 10px
+
+		li
+			color anaranjado
+
+#bgQueHacemos
+	width 100%
+	min-height 500px
+	background azul-claro
+	border-box box-sizing
+	padding 20px 0
+
+	section
+		max-width 960px
+		margin 0 auto
+		font-family montserrat
+		ul
+			margin-top 50px
+			li
+				text-align center
+				list-style none
+				h3
+					color white
+					width 150px
+					margin 20px auto
+					text-transform uppercase
+				p
+					color azul-oscuro
+		h2
+			text-align center
+			font-family lobster
+			font-size 42px
+			text-shadow 0 2px 0 rgba(0, 0, 0, .25)
+			color white
+			
+			span
+				color anaranjado
+		
+	.dw
+		width 114px
+		height 111px
+		background url("../img/icon-set.png") -126px 0px;
+		margin 0 auto
+	.cl
+		width 126px
+		height 111px
+		background url("../img/icon-set.png") 0px 0px;
+		margin 0 auto
+	.devw
+		width 124px
+		height 111px
+		background url("../img/icon-set.png") -240px 0px;
+		margin 0 auto
+
+#bgTecnologias
+	width 100%
+	min-height 300px
+	background cafe
+	margin-top -20px
+	padding 0
+	
+	section
+		max-width 960px
+		margin 0 auto
+		padding 20px 0
+		border-box box-sizing
+		
+		ul
+			list-style none
+			margin-top 30px
+			li
+				display inline-block
+				padding 20px 40px 20px 40px
+		h2
+			color white
+			text-transform uppercase
+			font-family montserrat
+			font-size 24px
+			letter-spacing -2px
+			text-align center
+			
+	.html5
+		width 102px
+		height 101px
+		background url("../img/icon-set.png") 0px 101px;
+		transition all .4s
+		cursor pointer
+		
+	.css3
+		width 102px
+		height 101px
+		background url("../img/icon-set.png") -102px 101px;
+		transition all .4s
+		cursor pointer
+		
+	.jquery
+		width 102px
+		height 101px
+		background url("../img/icon-set.png") -203px 101px;
+		transition all .4s
+		cursor pointer
+		
+	.photoshop
+		width 102px
+		height 101px
+		background url("../img/icon-set.png") -304px 101px;
+		transition all .4s
+		cursor pointer
+		
+	.illustrator
+		width 102px
+		height 101px
+		background url("../img/icon-set.png") -406px 101px;
+		transition all .4s
+		cursor pointer
+		
+	.html5:hover, .css3:hover, .jquery:hover, .photoshop:hover, .illustrator:hover
+		opacity 0.5
+#bgContacto
+	height 650px
+	background azul-oscuro
+	margin-top -20px
+	
+	section
+		max-width 960px
+		margin 0 auto
+		
+		h2
+			text-align center
+			color azul-claro
+			font-weight bold
+			font-family montserrat
+			text-transform uppercase
+			padding 30px 0
+		
+		article
+			max-width 300px
+			margin 0 auto
+			a
+				display block
+				color blanco
+				margin 0
+				padding 0
+			img
+				margin-right 10px
+				
+		form
+			max-width 400px
+			margin 50px auto
+			
+			div
+				margin 7px 0
+			
+			input, textarea
+				min-width 100%
+				box-sizing border-box
+				border 2px solid azul-claro
+				border-radius 5px
+				outline none
+				color azul-claro
+				font-size 12px
+				padding 15px 15px 15px 40px
+			textarea
+				resize none
+				max-width 100%
+				height 150px
+			.enviar
+				background azul-claro url('../img/i-send.png') no-repeat center center
+				transition all .4s
+			.enviar:hover
+				border 2px solid #3fbace
+				background #3fbace url('../img/i-send.png') no-repeat center center
+			.nombre
+				background #fffffb url('../img/i-user.png') no-repeat 10px center
+			.email
+				background #fffffb url('../img/i-mail.png') no-repeat 10px center
+			.asunto
+				background #fffffb url('../img/i-issue.png') no-repeat 10px center
+			.mensaje
+				background #fffffb url('../img/i-msg.png') no-repeat 10px 15px
+
+
+li a.current
+	border-bottom 5px solid cafe-claro
+
+#bgFooter
+	background cafe
+	padding 50px 0
+	
+	p
+		text-align center
+		color white
+		
+		span
+			color red
+
+
+
+
+@media (max-width: 992px)
+	#bgInicio
+		background url(../img/macbook.png) no-repeat 250px center
+		background-size 1024px
+		
+@media (max-width: 768)
+	#bgInicio
+		background url(../img/macbook.png) no-repeat 100px center
+		background-size 800px
+		
+@keyframes cambiar
+	0%{
+		margin-top: 0
+	}
+	20%{
+		margin-top: 0
+	}
+	
+	25%{
+		margin-top: -40px
+	}
+	50%{
+		margin-top: -40px
+	}
+	
+	55%{
+		margin-top: -80px
+	}
+	80%{
+		margin-top: -80px
+	}
+	
+	85%{
+		margin-top: -40px
+	}
+	95%{
+		margin-top: -40px
+	}
+	
+	100%{
+		margin-top: 0
+	}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

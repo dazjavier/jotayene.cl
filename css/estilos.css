@@ -1,0 +1,434 @@
+.navbar-toggle {
+  border: 2px solid #95816e;
+}
+.icon-bar {
+  width: 22px;
+  height: 2px;
+  background: #95816e;
+}
+.navbar {
+  margin: 0;
+  background: #5f5347;
+  border: 0;
+  border-radius: 0;
+  font-family: 'Montserrat', sans-serif !important;
+  text-transform: uppercase;
+  border-bottom: 1px solid #95816e;
+}
+.navbar a.navbar-brand {
+  color: #f24b26;
+  letter-spacing: -2px;
+  font-weight: bold;
+  font-size: 32px;
+  transition: all 0.2s;
+}
+.navbar a.navbar-brand span {
+  color: #2a7e8c;
+}
+.navbar a.navbar-brand:hover {
+  text-shadow: 0 2px 0 rgba(0,0,0,0.5);
+}
+.navbar .navbar-header a:hover {
+  text-decoration: none;
+}
+.navbar .navbar-nav {
+  display: inline-block;
+  float: none;
+  vertical-align: top;
+}
+.navbar .navbar-collapse {
+  text-align: center;
+}
+.navbar .navbar-nav li a {
+  color: #fff;
+  transition: all 0.3s;
+}
+.navbar .navbar-nav li a:hover {
+  color: #f24b26;
+}
+#bgInicio {
+  width: 100%;
+  height: 700px;
+  padding-top: 80px;
+  background: url("../img/macbook.png") no-repeat 500px center;
+  background-size: 1200px;
+}
+#bgInicio section {
+  max-width: 960px;
+  font-family: 'Montserrat', sans-serif;
+  margin: 0 auto;
+  border-box: box-sizing;
+  padding: 150px 0;
+}
+#bgInicio section h1 {
+  max-width: 300px;
+  font-size: 64px;
+  font-weight: bold;
+  color: #f24b26;
+}
+#bgInicio section h1 span {
+  color: #2a7e8c;
+}
+#mueve {
+  max-width: 400px;
+  height: 35px;
+  display: flex;
+  overflow: hidden;
+}
+#mueve h2 {
+  font-size: 30px;
+  margin: 0;
+}
+#mueve ul {
+  font-family: 'Lobster Two', sans-serif;
+  font-size: 28px;
+  list-style: none;
+  animation: cambiar 7s infinite;
+  margin: 0;
+  padding: 0 0 0 10px;
+}
+#mueve ul li {
+  color: #f24b26;
+}
+#bgQueHacemos {
+  width: 100%;
+  min-height: 500px;
+  background: #2a7e8c;
+  border-box: box-sizing;
+  padding: 20px 0;
+}
+#bgQueHacemos section {
+  max-width: 960px;
+  margin: 0 auto;
+  font-family: 'Montserrat', sans-serif;
+}
+#bgQueHacemos section ul {
+  margin-top: 50px;
+}
+#bgQueHacemos section ul li {
+  text-align: center;
+  list-style: none;
+}
+#bgQueHacemos section ul li h3 {
+  color: #fff;
+  width: 150px;
+  margin: 20px auto;
+  text-transform: uppercase;
+}
+#bgQueHacemos section ul li p {
+  color: #144959;
+}
+#bgQueHacemos section h2 {
+  text-align: center;
+  font-family: 'Lobster Two', sans-serif;
+  font-size: 42px;
+  text-shadow: 0 2px 0 rgba(0,0,0,0.25);
+  color: #fff;
+}
+#bgQueHacemos section h2 span {
+  color: #f24b26;
+}
+#bgQueHacemos .dw {
+  width: 114px;
+  height: 111px;
+  background: url("../img/icon-set.png") -126px 0px;
+  margin: 0 auto;
+}
+#bgQueHacemos .cl {
+  width: 126px;
+  height: 111px;
+  background: url("../img/icon-set.png") 0px 0px;
+  margin: 0 auto;
+}
+#bgQueHacemos .devw {
+  width: 124px;
+  height: 111px;
+  background: url("../img/icon-set.png") -240px 0px;
+  margin: 0 auto;
+}
+#bgTecnologias {
+  width: 100%;
+  min-height: 300px;
+  background: #5f5347;
+  margin-top: -20px;
+  padding: 0;
+}
+#bgTecnologias section {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 20px 0;
+  border-box: box-sizing;
+}
+#bgTecnologias section ul {
+  list-style: none;
+  margin-top: 30px;
+}
+#bgTecnologias section ul li {
+  display: inline-block;
+  padding: 20px 40px 20px 40px;
+}
+#bgTecnologias section h2 {
+  color: #fff;
+  text-transform: uppercase;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 24px;
+  letter-spacing: -2px;
+  text-align: center;
+}
+#bgTecnologias .html5 {
+  width: 102px;
+  height: 101px;
+  background: url("../img/icon-set.png") 0px 101px;
+  transition: all 0.4s;
+  cursor: pointer;
+}
+#bgTecnologias .css3 {
+  width: 102px;
+  height: 101px;
+  background: url("../img/icon-set.png") -102px 101px;
+  transition: all 0.4s;
+  cursor: pointer;
+}
+#bgTecnologias .jquery {
+  width: 102px;
+  height: 101px;
+  background: url("../img/icon-set.png") -203px 101px;
+  transition: all 0.4s;
+  cursor: pointer;
+}
+#bgTecnologias .photoshop {
+  width: 102px;
+  height: 101px;
+  background: url("../img/icon-set.png") -304px 101px;
+  transition: all 0.4s;
+  cursor: pointer;
+}
+#bgTecnologias .illustrator {
+  width: 102px;
+  height: 101px;
+  background: url("../img/icon-set.png") -406px 101px;
+  transition: all 0.4s;
+  cursor: pointer;
+}
+#bgTecnologias .html5:hover,
+#bgTecnologias .css3:hover,
+#bgTecnologias .jquery:hover,
+#bgTecnologias .photoshop:hover,
+#bgTecnologias .illustrator:hover {
+  opacity: 0.5;
+}
+#bgContacto {
+  height: 650px;
+  background: #144959;
+  margin-top: -20px;
+}
+#bgContacto section {
+  max-width: 960px;
+  margin: 0 auto;
+}
+#bgContacto section h2 {
+  text-align: center;
+  color: #2a7e8c;
+  font-weight: bold;
+  font-family: 'Montserrat', sans-serif;
+  text-transform: uppercase;
+  padding: 30px 0;
+}
+#bgContacto section article {
+  max-width: 300px;
+  margin: 0 auto;
+}
+#bgContacto section article a {
+  display: block;
+  color: #fffffb;
+  margin: 0;
+  padding: 0;
+}
+#bgContacto section article img {
+  margin-right: 10px;
+}
+#bgContacto section form {
+  max-width: 400px;
+  margin: 50px auto;
+}
+#bgContacto section form div {
+  margin: 7px 0;
+}
+#bgContacto section form input,
+#bgContacto section form textarea {
+  min-width: 100%;
+  box-sizing: border-box;
+  border: 2px solid #2a7e8c;
+  border-radius: 5px;
+  outline: none;
+  color: #2a7e8c;
+  font-size: 12px;
+  padding: 15px 15px 15px 40px;
+}
+#bgContacto section form textarea {
+  resize: none;
+  max-width: 100%;
+  height: 150px;
+}
+#bgContacto section form .enviar {
+  background: #2a7e8c url("../img/i-send.png") no-repeat center center;
+  transition: all 0.4s;
+}
+#bgContacto section form .enviar:hover {
+  border: 2px solid #3fbace;
+  background: #3fbace url("../img/i-send.png") no-repeat center center;
+}
+#bgContacto section form .nombre {
+  background: #fffffb url("../img/i-user.png") no-repeat 10px center;
+}
+#bgContacto section form .email {
+  background: #fffffb url("../img/i-mail.png") no-repeat 10px center;
+}
+#bgContacto section form .asunto {
+  background: #fffffb url("../img/i-issue.png") no-repeat 10px center;
+}
+#bgContacto section form .mensaje {
+  background: #fffffb url("../img/i-msg.png") no-repeat 10px 15px;
+}
+li a.current {
+  border-bottom: 5px solid #95816e;
+}
+#bgFooter {
+  background: #5f5347;
+  padding: 50px 0;
+}
+#bgFooter p {
+  text-align: center;
+  color: #fff;
+}
+#bgFooter p span {
+  color: #f00;
+}
+@media (max-width: 992px) {
+  #bgInicio {
+    background: url("../img/macbook.png") no-repeat 250px center;
+    background-size: 1024px;
+  }
+}
+@media (max-width: 768) {
+  #bgInicio {
+    background: url("../img/macbook.png") no-repeat 100px center;
+    background-size: 800px;
+  }
+}
+@-moz-keyframes cambiar {
+  0% {
+    margin-top: 0;
+  }
+  20% {
+    margin-top: 0;
+  }
+  25% {
+    margin-top: -40px;
+  }
+  50% {
+    margin-top: -40px;
+  }
+  55% {
+    margin-top: -80px;
+  }
+  80% {
+    margin-top: -80px;
+  }
+  85% {
+    margin-top: -40px;
+  }
+  95% {
+    margin-top: -40px;
+  }
+  100% {
+    margin-top: 0;
+  }
+}
+@-webkit-keyframes cambiar {
+  0% {
+    margin-top: 0;
+  }
+  20% {
+    margin-top: 0;
+  }
+  25% {
+    margin-top: -40px;
+  }
+  50% {
+    margin-top: -40px;
+  }
+  55% {
+    margin-top: -80px;
+  }
+  80% {
+    margin-top: -80px;
+  }
+  85% {
+    margin-top: -40px;
+  }
+  95% {
+    margin-top: -40px;
+  }
+  100% {
+    margin-top: 0;
+  }
+}
+@-o-keyframes cambiar {
+  0% {
+    margin-top: 0;
+  }
+  20% {
+    margin-top: 0;
+  }
+  25% {
+    margin-top: -40px;
+  }
+  50% {
+    margin-top: -40px;
+  }
+  55% {
+    margin-top: -80px;
+  }
+  80% {
+    margin-top: -80px;
+  }
+  85% {
+    margin-top: -40px;
+  }
+  95% {
+    margin-top: -40px;
+  }
+  100% {
+    margin-top: 0;
+  }
+}
+@keyframes cambiar {
+  0% {
+    margin-top: 0;
+  }
+  20% {
+    margin-top: 0;
+  }
+  25% {
+    margin-top: -40px;
+  }
+  50% {
+    margin-top: -40px;
+  }
+  55% {
+    margin-top: -80px;
+  }
+  80% {
+    margin-top: -80px;
+  }
+  85% {
+    margin-top: -40px;
+  }
+  95% {
+    margin-top: -40px;
+  }
+  100% {
+    margin-top: 0;
+  }
+}
